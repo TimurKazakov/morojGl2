@@ -1,0 +1,5 @@
+1 Masha Kazan 1000
+2 Dasha Kazan 3000
+3 Ivan Moscow 3000
+4 Dima Moscow 2000
+5 Anton London 3000
