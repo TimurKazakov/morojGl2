@@ -1,0 +1,24 @@
+h1, h2, h2{
+    text-transform: uppercase;
+
+}
+
+.bold-line{
+    text-align: left ;
+}
+
+.mid-line{
+    text-align: left;
+
+}
+.greed-line{
+
+    text-align: left;
+}
+.new-goods-list{
+    text-decoration: none;
+    list-style-type: none;
+}
+table{
+    border-collapse: collapse;
+}
