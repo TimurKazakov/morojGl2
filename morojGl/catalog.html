@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Catalog</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="css/catalog.css">
+</head>
+<body>
+<header class="main-header">
+    <nav class="main-header__navigation-lists">
+        <ul class="navigation-lists__site-navigation-list">
+            <li class="site-navigation-list__site-navigation-item"><a class="site-navigation-item__navigation-link navigation-logo"><img src="#" class="header-logo"></a></li>
+            <li class="site-navigation-list__site-navigation-item"><a class="site-navigation-item__navigation-link site-navigation-item__navigation-link--current ">Каталог</a></li>
+            <li class="site-navigation-list__site-navigation-item"><a class="site-navigation-item__navigation-link">Доставка и оплата</a></li>
+            <li class="site-navigation-list__site-navigation-item"><a class="site-navigation-item__navigation-link">О Компании</a></li>
+
+        </ul>
+        <ul class="navigation-lists__user-navigation-list">
+            <li class="user-navigation-list__user-navigation-item"><a class="user-navigation-item__navigation-link btn">Search<img src="#"></a></li>
+            <li class="user-navigation-list__user-navigation-item"><a class="user-navigation-item__navigation-link btn--transherit"><img src="#"> Вход</a></li>
+            <li class="user-navigation-list__user-navigation-item"><a class="user-navigation-item__navigation-link btn--transherit"><img src="#"> Пусто</a></li>
+            <!--::after description on the worktime -->
+        </ul>
+
+    </nav>
+
+</header>
+
+<main class="catalog-main">
+    <ul class="catalog-main__breadcrumbs-list">
+        <li class="catalog-main__breadcrumbs-item">
+            <a class="catalog-main__breadcrumbs-link">Главная</a>
+        </li>
+        <li class="catalog-main__breadcrumbs-item">
+            <a class="catalog-main__breadcrumbs-link">Каталог</a>
+        </li>
+        <li class="catalog-main__breadcrumbs-item">
+            <a class="catalog-main__breadcrumbs-link">Сливочное</a>
+        </li>
+
+    </ul>
+    <form class="catalog-main__form">
+        <H2 class="catalog-main__form__description"></H2>
+
+            <label class="catalog-main__form__title">Сортировка
+                <select class="catalog-main__form__select">
+                    <option> По популярности</option>
+                </select>
+            </label>
+        <label class="catalog-main__form__title">Цена <span class="catalog-main__form__price__title price-title-from" >100</span> руб. - <span class="catalog-main__form__price__title price-title-to">500</span > руб.
+                <input class="catalog-main__form__price__range" type="range" min="0"  max="100" multiple data-values="100 500">
+            </label>
+
+        <label class="catalog-main__form__title">Жирность
+            <label class="catalog-main__form__fat-content__title"><input class="catalog-main__form__fat-content" name="fat-content" type="radio" value="0"> 0%</label>
+            <label class="catalog-main__form__fat-content__title"><input class="catalog-main__form__fat-content" name="fat-content" type="radio" value="<10%" checked>до 10%</label>
+            <label class="catalog-main__form__fat-content__title"><input class="catalog-main__form__fat-content" name="fat-content" type="radio" value="10%-30%">до 30%</label>
+            <label class="catalog-main__form__fat-content__title"><input class="catalog-main__form__fat-content" name="fat-content" type="radio" value=">30%">выше 30%</label>
+        </label>
+
+        <label class="catalog-main__form__title">Наполнители
+            <label class="catalog-main__form__fillers__title"><input class="catalog-main__form__filler" name="fillers" type="checkbox" value="шоколадные" checked>шоколадные</label>
+            <label class="catalog-main__form__fillers__title"><input class="catalog-main__form__filler" name="fillers" type="checkbox" value="Сахарные присыпки" checked>Сахарные присыпки</label>
+            <label class="catalog-main__form__fillers__title"><input class="catalog-main__form__filler" name="fillers" type="checkbox" value="Фрукты" >Фрукты</label>
+            <label class="catalog-main__form__fillers__title"><input class="catalog-main__form__filler" name="fillers" type="checkbox" value="Сиропв" >Сиропв</label>
+            <label class="catalog-main__form__fillers__title"><input class="catalog-main__form__filler" name="fillers" type="checkbox" value="Джемы" >Джемы</label>
+        </label>
+        <input type="submit" value="Применить" class="catalog-main__form__button button--red">
+    </form>
+
+    <ul class="catalog-main__ice-cream-presentation-list">
+        <li class="catalog-main__ice-cream-presentation-item">
+            <img src="#" class="catalog-main__ice-cream-presentation-img">
+            <h3 class="catalog-main__ice-cream-presentation-price">310 Р/кг</h3>
+            <p class="catalog-main__ice-cream-presentation-description">Lorem ipsum dolor sit amet, consectetur.</p>
+
+        </li>
+        <li class="catalog-main__ice-cream-presentation-item">
+            <img src="#" class="catalog-main__ice-cream-presentation-img">
+            <h3 class="catalog-main__ice-cream-presentation-price">310 Р/кг</h3>
+            <p class="catalog-main__ice-cream-presentation-description">Lorem ipsum dolor sit amet, consectetur.</p>
+
+        </li>
+        <li class="catalog-main__ice-cream-presentation-item">
+            <img src="#" class="catalog-main__ice-cream-presentation-img">
+            <h3 class="catalog-main__ice-cream-presentation-price">310 Р/кг</h3>
+            <p class="catalog-main__ice-cream-presentation-description">Lorem ipsum dolor sit amet, consectetur.</p>
+
+        </li>
+        <li class="catalog-main__ice-cream-presentation-item">
+            <img src="#" class="catalog-main__ice-cream-presentation-img">
+            <h3 class="catalog-main__ice-cream-presentation-price">310 Р/кг</h3>
+            <p class="catalog-main__ice-cream-presentation-description">Lorem ipsum dolor sit amet, consectetur.</p>
+
+        </li>
+        <li class="catalog-main__ice-cream-presentation-item">
+            <img src="#" class="catalog-main__ice-cream-presentation-img">
+            <h3 class="catalog-main__ice-cream-presentation-price">310 Р/кг</h3>
+            <p class="catalog-main__ice-cream-presentation-description">Lorem ipsum dolor sit amet, consectetur.</p>
+
+        </li>
+        <li class="catalog-main__ice-cream-presentation-item">
+            <img src="#" class="catalog-main__ice-cream-presentation-img">
+            <h3 class="catalog-main__ice-cream-presentation-price">310 Р/кг</h3>
+            <p class="catalog-main__ice-cream-presentation-description">Lorem ipsum dolor sit amet, consectetur.</p>
+
+        </li>
+        <li class="catalog-main__ice-cream-presentation-item">
+            <img src="#" class="catalog-main__ice-cream-presentation-img">
+            <h3 class="catalog-main__ice-cream-presentation-price">310 Р/кг</h3>
+            <p class="catalog-main__ice-cream-presentation-description">Lorem ipsum dolor sit amet, consectetur.</p>
+
+        </li>
+        <li class="catalog-main__ice-cream-presentation-item">
+            <img src="#" class="catalog-main__ice-cream-presentation-img">
+            <h3 class="catalog-main__ice-cream-presentation-price">310 Р/кг</h3>
+            <p class="catalog-main__ice-cream-presentation-description">Lorem ipsum dolor sit amet, consectetur.</p>
+
+        </li>
+        <li class="catalog-main__ice-cream-presentation-item">
+            <img src="#" class="catalog-main__ice-cream-presentation-img">
+            <h3 class="catalog-main__ice-cream-presentation-price">310 Р/кг</h3>
+            <p class="catalog-main__ice-cream-presentation-description">Lorem ipsum dolor sit amet, consectetur.</p>
+
+        </li>
+        <li class="catalog-main__ice-cream-presentation-item">
+            <img src="#" class="catalog-main__ice-cream-presentation-img">
+            <h3 class="catalog-main__ice-cream-presentation-price">310 Р/кг</h3>
+            <p class="catalog-main__ice-cream-presentation-description">Lorem ipsum dolor sit amet, consectetur.</p>
+
+        </li>
+        <li class="catalog-main__ice-cream-presentation-item">
+            <img src="#" class="catalog-main__ice-cream-presentation-img">
+            <h3 class="catalog-main__ice-cream-presentation-price">310 Р/кг</h3>
+            <p class="catalog-main__ice-cream-presentation-description">Lorem ipsum dolor sit amet, consectetur.</p>
+
+        </li>
+        <li class="catalog-main__ice-cream-presentation-item">
+            <img src="#" class="catalog-main__ice-cream-presentation-img">
+            <h3 class="catalog-main__ice-cream-presentation-price">310 Р/кг</h3>
+            <p class="catalog-main__ice-cream-presentation-description">Lorem ipsum dolor sit amet, consectetur.</p>
+
+        </li>
+
+    </ul>
+
+    <ul class="catalog-main__pagination-list">
+        <li class="catalog-main__pagination-item">
+            <a class="catalog-main__pagination-link catalog-main__pagination-link--current">1</a>
+        </li>
+        <li class="catalog-main__pagination-item">
+            <a class="catalog-main__pagination-link ">2</a>
+        </li>
+        <li class="catalog-main__pagination-item">
+            <a class="catalog-main__pagination-link ">3</a>
+        </li>
+        <li class="catalog-main__pagination-item">
+            <a class="catalog-main__pagination-link ">4</a>
+        </li>
+        <li class="catalog-main__pagination-item">
+            <a class="catalog-main__pagination-link ">5</a>
+        </li>
+        <li class="catalog-main__pagination-item">
+            <a class="catalog-main__pagination-link catalog-main__pagination-link--next ">6</a>
+        </li>
+
+    </ul>
+</main>
+
+
+<footer class="main-footer">
+    <nav class="main-footer__social-navigation">
+        <ul class="main-footer__social-navigation__list">
+            <li class="main-footer__social-navigation__item">
+                <a class="main-footer__social-navigation__link">Twitter</a>
+            </li>
+            <li class="main-footer__social-navigation__item">
+                <a class="main-footer__social-navigation__link">instagramm</a>
+            </li>
+            <li class="main-footer__social-navigation__item">
+                <a class="main-footer__social-navigation__link">facebook</a>
+            </li>
+            <li class="main-footer__social-navigation__item">
+                <a class="main-footer__social-navigation__link">VKontakte</a>
+            </li>
+
+        </ul>
+
+    </nav>
+    <div class="main-footer__more-info">
+        <ul class="main-footer__more-info__list">
+            <li class="main-footer__more-info__item">
+                <a class="main-footer__more-info__link">Для поставщиков</a>
+            </li>
+            <li class="main-footer__more-info__item">
+                <a class="main-footer__more-info__link">Наши документы</a>
+            </li>
+            <li class="main-footer__more-info__item">
+                <a class="main-footer__more-info__link">О производстве</a>
+            </li>
+            <li class="main-footer__more-info__item">
+                <a class="main-footer__more-info__link">Экологические стандарты</a>
+            </li>
+
+        </ul>
+    </div>
+
+    <div class="main-footer__creator">
+        <img src="#" class="main-footer__creator__logo">
+        <A class="main-footer__creator__link" href="#"> Разработано мной</A>
+
+
+    </div>
+
+</footer>
+</body>
+<script src="js/price-slider.js"></script>
+</html>
